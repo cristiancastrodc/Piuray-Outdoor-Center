@@ -1,0 +1,49 @@
+@media screen and (max-width: 480px) {
+  section.node-content {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    background: rgba(255,255,255,0.75);
+  }
+  nav a.navbar-brand {
+    max-width: 75px;
+  }
+  nav ul.menu ul.menu {
+    padding-left: 20px !important;
+    background-color: rgba(178,178,178,0.5);
+  }
+  nav ul.menu ul.menu > li {
+    display: inline-block;
+  }
+  nav ul.menu ul.menu > li + li {
+    border-left: 1px solid #010000;
+  }
+  nav .region-navbar {
+    overflow: hidden;
+  }
+  section.node-content h1 {
+    font-size: 30px;
+  }
+  section.node-content h2 {
+    font-size: 20px;
+  }
+  section.node-content h3 {
+    font-size: 15px;
+  }
+  section h1,
+  section#contact-header h1,
+  section#social-header h1 {
+    font-size: 40px;
+  }
+  .title-2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  nav div#block-system-main-menu a {
+    font-size: 12px;
+    padding: 4px;
+  }
+}

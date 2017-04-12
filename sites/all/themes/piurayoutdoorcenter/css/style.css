@@ -1,0 +1,191 @@
+@font-face {
+  font-family: Tunga;
+  src: url(fonts/tunga.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Tunga;
+  src: url(fonts/tungab.ttf);
+  font-weight: bold;
+}
+body {
+  font-family: Calibri, sans-serif;
+}
+body.front {
+  color: #fefefe;
+  position: relative;
+}
+a {
+  color: #fefefe;
+}
+a:hover {
+  text-decoration: none;
+  color: #fefefe;
+}
+.navbar-toggle .icon-bar {
+  background-color: #000;
+}
+section#tabs a,
+section#admin a {
+  color: #010000;
+}
+div#first-time {
+  display: none;
+}
+section h1 {
+  font-family: Tunga;
+  font-size: 100px;
+  font-weight: bold;
+}
+.title-1 {
+  font-family: Tunga;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 0.75;
+}
+.title-2 {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1;
+}
+.color-1 {
+  color: #3e8bb0;
+}
+nav div#block-system-main-menu a {
+  color: #010000;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+}
+nav div#block-system-main-menu a:hover {
+  background-color: #D4DDE4;
+}
+nav #block-system-main-menu > div > ul > li:nth-child(2) span.caret {
+  color: #61ab9c;
+}
+nav #block-system-main-menu > div > ul > li:nth-child(3) span.caret {
+  color: #b58240;
+}
+nav #block-system-main-menu > div > ul > li:nth-child(4) span.caret {
+  color: #d04f3e;
+}
+.owl-prev,
+.owl-next {
+  font-weight: bold;
+  opacity: 1 !important;
+  background: transparent !important;
+  padding: 0px !important;
+  font-family: Arial;
+  margin-right: 15px !important;
+}
+.view-front-slider .owl-prev,
+.view-front-slider .owl-next {
+  font-size: 80px !important;
+}
+#block-views-front-content-block {
+  font-size: 19px;
+}
+section .view a {
+  font-family: Tunga;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 0.75;
+  text-transform: uppercase;
+}
+#block-views-water-pages-list-block .view-content > div:nth-child(even) a {
+  color: #3e8bb0;
+}
+#block-views-earth-pages-second-list-block .view-content > div:nth-child(even) a {
+  color: #bc8510;
+}
+section#earth-header h1 {
+  color: transparent;
+}
+#block-views-gastronomy-pages-list-block .view-content > div:nth-child(even) a {
+  color: #95991c;
+}
+section#contact-header h1 {
+  font-size: 75px;
+}
+#webform-client-form-34 input,
+#webform-client-form-34 textarea,
+#webform-client-form-35 input,
+#webform-client-form-35 textarea {
+  color: #010000;
+  max-width: 100%;
+  width: 100%;
+}
+#webform-client-form-34 label,
+#webform-client-form-35 label {
+  text-transform: uppercase;
+}
+#webform-client-form-34 .form-actions,
+#webform-client-form-35 .form-actions {
+  margin: 0;
+}
+#webform-client-form-34 .form-actions input,
+#webform-client-form-35 .form-actions input {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  color: #FFF;
+  background: #006b68;
+  border: none;
+  padding: 5px 10px;
+}
+section#social-header h1 {
+  font-size: 75px;
+}
+#block-views-front-social-block-first-block {
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 19px;
+}
+span.pre {
+  font-size: 75px;
+  line-height: 1;
+}
+span.post {
+  font-size: 45px;
+}
+#block-views-front-social-block-second-block,
+#block-views-front-social-block-third-block {
+  font-size: 16.5px;
+  line-height: 1.1;
+}
+section.node-title h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 0.75;
+  color: #89dccb;
+}
+section.node-content h2 {
+  margin: 0;
+}
+section.node-content {
+  color: #FFFFFF;
+}
+section.node-content ul {
+  padding-left: 15px;
+  margin: 0;
+}
+section#info {
+  font-family: Tunga;
+  font-weight: bold;
+  font-size: 20px;
+  color: #010000;
+}
+section#info a {
+  font-family: Tunga;
+  color: #010000;
+  font-size: 21px;
+  text-transform: lowercase;
+}
+section#info p {
+  margin: 0;
+}

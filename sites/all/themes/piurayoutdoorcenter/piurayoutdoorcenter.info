@@ -1,0 +1,36 @@
+name = Piuray Outdoor Center Theme
+description = Custom Drupal theme for Piuray Outdoor Center, based on Bootstrap and One-Page approach.
+core = 7.x
+engine = phptemplate
+
+;;;;;;;;;;;;;;;;;;;;;
+;; REGIONS
+;;;;;;;;;;;;;;;;;;;;;
+regions[navbar]     = Navbar
+regions[header]     = Header
+regions[content]    = Content
+regions[water]      = Water
+regions[earth]      = 'Earth 1'
+regions[earth_2]    = 'Earth 2'
+regions[gastronomy] = Gastronomy
+regions[map]        = Map
+regions[contact]    = Contact
+regions[social]     = Social
+regions[info]       = 'Contact Info'
+
+;; REQUIRED CORE REGIONS
+regions[page_top]    = 'Page top'
+regions[page_bottom] = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/responsive.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+scripts[] = js/bootstrap.min.js
