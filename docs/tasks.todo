@@ -1,14 +1,16 @@
- ☐ Home: Cambiar colores (según modelo).
  ☐ Página de servicios: Corregir que en ocasiones el diseño del título se sobrepone al texto de la página.
  ☐ Página de servicios: cambiar sección de servicios relacionados por galería de fotos.
- ☐ Error 404: Desarrollar página para mostrar este error.
- ☐ Contenido: Eliminar Página de Prueba.
  ☐ Contenido: Llenar con los contenidos correctos.
  ☐ Página de servicios: Cambiar tipografía.
- ☐ Reducir peso de las imágenes del tema.
+ ☐ Contenido: Si el contenido no tiene imagen, mostrar imagen por defecto.
+ ☐ Error 404: Desarrollar página para mostrar este error.
+ ☐ * Contenido: Cambiar color de fondo de acuerdo al tipo de contenido.
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Reducir peso de las imágenes del tema. @done (17-04-15 06:55)
+ ✔ Contenido: Eliminar Página de Prueba. @done (17-04-15 06:55)
+ ✔ Home: Cambiar colores (según modelo). @started(17-04-15 05:08) @done (17-04-15 06:48) @lasted(1:40)
  ✔ Página de contacto: En redes sociales deben ir solo enlaces a Facebook (https://www.facebook.com/PIURAYOC) y Trip Advisor (https://www.tripadvisor.com/Attraction_Review-g294314-d8754774-Reviews-Piuray_Outdoor_Center-Cusco_Cusco_Region.html). @done (17-04-14 23:02)
  ✔ Página de contacto: Desarrollar en base a la sección de contactos del home actual. @started(17-04-14 14:49) @done (17-04-14 23:02) @lasted(8:13)
  ✔ Home: Remover sección de contactos. @done (17-04-14 23:02)

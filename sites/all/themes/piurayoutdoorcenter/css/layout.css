@@ -147,7 +147,7 @@ section#water-header {
   }
 }
 section#water-content {
-  background: url(img/bg-3.png) center center no-repeat;
+  background: url('img/bg-water.png') center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   padding-top: 125px;
@@ -178,7 +178,7 @@ section#earth-header {
   }
 }
 section#earth-content {
-  background: url(img/bg-5.png) center center no-repeat;
+  background: url('img/bg-earth.png') center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   padding-top: 105px;
@@ -209,7 +209,7 @@ section#gastronomy-header {
   }
 }
 section#gastronomy-content {
-  background: url(img/bg-7.png) center center no-repeat;
+  background: url('img/bg-gastronomy.png') center center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   padding-top: 82.5px;

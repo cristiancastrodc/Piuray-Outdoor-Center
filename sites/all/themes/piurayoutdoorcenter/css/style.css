@@ -95,7 +95,7 @@ section .view a {
   text-transform: uppercase;
 }
 #block-views-water-pages-list-block .view-content > div:nth-child(even) a {
-  color: #3e8bb0;
+  color: #004c71;
 }
 #block-views-earth-pages-second-list-block .view-content > div:nth-child(even) a {
   color: #bc8510;
