@@ -119,47 +119,6 @@
   </section>
 <?php endif; ?>
 
-<?php if ($page['contact']): ?>
-  <section id="contact-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1><?php print t("CONTACT"); ?></h1>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="map">
-    <div class="container-fluid no-padding">
-      <div class="row">
-        <div class="col-lg-12">
-          <?php print render($page['map']); ?>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact-content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <?php print render($page['contact']); ?>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-10 text-right">
-          <ul class="list-inline social-links">
-            <li><a href="https://www.facebook.com/PIURAYOC" target="_blank"><i class="fa fa-3x fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-3x fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-3x fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-3x fa-youtube"></i></a></li>
-            <li><a href="https://www.pinterest.com" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-<?php endif; ?>
-
 <?php if ($page['social']): ?>
   <section id="social-header">
     <div class="container">

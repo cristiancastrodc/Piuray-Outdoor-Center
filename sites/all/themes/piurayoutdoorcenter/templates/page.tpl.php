@@ -25,18 +25,20 @@
 <?php if ($logged_in): ?>
   <section id="admin">
     <div class="container">
-      <div class="row">
-        <?php if (!empty($tabs)): ?>
+      <?php if (!empty($tabs)): ?>
+        <div class="row">
           <div class="col-lg-12">
             <?php print render($tabs); ?>
           </div>
-        <?php endif ?>
-        <?php if ($messages): ?>
+        </div>
+      <?php endif ?>
+      <?php if ($messages): ?>
+        <div class="row">
           <div class="col-lg-12">
             <?php print $messages; ?>
           </div>
-        <?php endif ?>
-      </div>
+        </div>
+      <?php endif ?>
     </div>
   </section>
 <?php endif ?>

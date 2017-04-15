@@ -13,8 +13,6 @@ regions[water]      = Water
 regions[earth]      = 'Earth 1'
 regions[earth_2]    = 'Earth 2'
 regions[gastronomy] = Gastronomy
-regions[map]        = Map
-regions[contact]    = Contact
 regions[social]     = Social
 regions[info]       = 'Contact Info'
 
