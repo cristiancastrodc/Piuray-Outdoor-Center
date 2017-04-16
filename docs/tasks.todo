@@ -1,13 +1,13 @@
- ☐ Página de servicios: Corregir que en ocasiones el diseño del título se sobrepone al texto de la página.
- ☐ Página de servicios: cambiar sección de servicios relacionados por galería de fotos.
- ☐ Contenido: Llenar con los contenidos correctos.
- ☐ Página de servicios: Cambiar tipografía.
- ☐ Contenido: Si el contenido no tiene imagen, mostrar imagen por defecto.
+ ☐ Contenido: Cambiar tipografía.
  ☐ Error 404: Desarrollar página para mostrar este error.
+ ☐ Contenido: corregir diseño responsive (móviles).
  ☐ * Contenido: Cambiar color de fondo de acuerdo al tipo de contenido.
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Contenido: Llenar con los contenidos correctos. @started(17-04-15 10:05) @done (17-04-15 10:58) @lasted(0:53)
+ ✔ Contenido: cambiar sección de servicios relacionados por galería de fotos. @started(17-04-15 08:35) @done (17-04-15 09:36) @lasted(1:01)
+ ✔ Página de servicios: Corregir que en ocasiones el diseño del título se sobrepone al texto de la página. @started(17-04-15 06:59) @done (17-04-15 07:06) @lasted(0:07)
  ✔ Reducir peso de las imágenes del tema. @done (17-04-15 06:55)
  ✔ Contenido: Eliminar Página de Prueba. @done (17-04-15 06:55)
  ✔ Home: Cambiar colores (según modelo). @started(17-04-15 05:08) @done (17-04-15 06:48) @lasted(1:40)

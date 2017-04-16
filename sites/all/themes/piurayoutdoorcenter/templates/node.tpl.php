@@ -22,7 +22,7 @@
 <section class="node-content">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-justify">
+      <div class="col-md-10 col-md-offset-1 text-justify">
         <?php print render($content['body']); ?>
       </div>
     </div>
@@ -43,11 +43,11 @@
         </div>
       </div>
     <?php endif ?>
-    <?php if (!empty($content['field_enlaces'])): ?>
+    <?php if (!empty($content['field_galeria'])): ?>
       <div class="row">
         <div class="col-lg-12">
-          <h2 class="links-title"><?php print t('Do you want more? Try another experiences.'); ?></h2>
-          <?php print render($content['field_enlaces']); ?>
+          <h2 class="links-title"><?php print t('Gallery'); ?></h2>
+          <?php print render($content['field_galeria']); ?>
         </div>
       </div>
     <?php endif ?>
