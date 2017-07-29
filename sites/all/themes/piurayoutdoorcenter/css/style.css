@@ -189,3 +189,10 @@ section#info a {
 section#info p {
   margin: 0;
 }
+
+.error-message {
+  position: absolute;
+  bottom: 10%;
+  color: #FFF;
+  font-size: 50px;
+}
