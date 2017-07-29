@@ -1,5 +1,4 @@
 <?php
-
 function piurayoutdoorcenter_menu_link(array $variables) {
   /*** Get each of the menu elements, one by one ***/
   $element = $variables['element'];
@@ -34,9 +33,13 @@ function piurayoutdoorcenter_menu_link(array $variables) {
 }
 
 function piurayoutdoorcenter_preprocess_page(&$vars) {
+  // Add js to front page
   if(drupal_is_front_page()) {
     drupal_add_js(drupal_get_path('theme', 'piurayoutdoorcenter') . '/js/nav-scroll.js');
     drupal_add_js(drupal_get_path('theme', 'piurayoutdoorcenter') . '/js/local.js');
     drupal_add_js(drupal_get_path('theme', 'piurayoutdoorcenter') . '/js/jquery.easing.js');
   }
+  // Add background variables
+  $water_bg_fid = theme_get_setting('water_bg');
+  $vars['water_bg_url'] = file_create_url(file_load($water_bg_fid)->uri);
 }

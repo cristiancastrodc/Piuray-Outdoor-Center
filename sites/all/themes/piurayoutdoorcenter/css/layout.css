@@ -132,7 +132,8 @@ section#main-content {
   }
 }
 section#water-header {
-  background: url(img/bg-2.jpg) center center no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   padding-top: 125px;
@@ -364,11 +365,11 @@ section#info {
   line-height: 1;
 }
 .field-name-field-galeria .owl-item {
-  margin: 10px;
+  /*margin: 10px;*/
   max-height: 175px;
   overflow-y: hidden;
   border: 5px solid rgba(255, 255, 255, 1);
-  border-radius: 2px;
+  border-radius: 15px;
 }
 .field-name-field-galeria .owl-item img {
   max-width: 100%;

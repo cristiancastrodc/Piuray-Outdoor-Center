@@ -5,3 +5,7 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 sites/private/tmp
+
+# Mandatory
+docs/
+sftp-config.json

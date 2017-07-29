@@ -51,7 +51,7 @@
 </section>
 
 <?php if ($page['water']): ?>
-  <section id="water-header">
+  <section id="water-header" style="background-image: url(<?php echo $water_bg_url; ?>);">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
