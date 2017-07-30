@@ -1,8 +1,10 @@
+/*
 @media screen and (max-width: 480px) {
   section.node-content {
     margin-top: 0;
   }
 }
+*/
 @media screen and (max-width: 767px) {
   nav {
     background: rgba(255,255,255,0.75);
@@ -16,9 +18,6 @@
   }
   nav ul.menu ul.menu > li {
     display: inline-block;
-  }
-  nav ul.menu ul.menu > li + li {
-    border-left: 1px solid #010000;
   }
   nav .region-navbar {
     overflow: hidden;
@@ -43,7 +42,8 @@
 }
 @media screen and (max-width: 991px) {
   nav div#block-system-main-menu a {
-    font-size: 12px;
-    padding: 4px;
+    font-size: 18px;
+    padding: 5px 10px;
+    display: block;
   }
 }

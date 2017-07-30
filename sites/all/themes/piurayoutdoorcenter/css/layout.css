@@ -1,9 +1,12 @@
 .no-padding {
   padding: 0;
+  overflow-x: hidden;
 }
+/*
 html {
   overflow-x: hidden;
 }
+*/
 h2.links-title {
   margin: 20px 0 10px !important;
 }
@@ -28,6 +31,7 @@ nav.navbar {
     padding-top: 0px;
     padding-bottom: 100px;
     background: url(img/menu-bg.png) left bottom no-repeat;
+    background-size: cover;
   }
 }
 a.navbar-brand {
@@ -91,7 +95,6 @@ nav.navbar-shrink a.navbar-brand {
 }
 header {
   max-height: 757px;
-  overflow: hidden;
 }
 header .view-front-slider img {
   width: 100%;
@@ -112,7 +115,7 @@ header .owl-controls {
 @media screen and (min-width: 1200px) {
   header .owl-controls {
     right: -webkit-calc((100% - 1250px) / 2);
-    right: calc((100% - 1250px) / 2);
+    right: calc((100% - 1200px) / 2);
   }
 }
 section#main-content {
@@ -122,7 +125,7 @@ section#main-content {
   position: relative;
   padding-top: 125px;
   padding-bottom: 112.5px;
-  margin-top: -105px;
+  margin-top: -126px;
 }
 @media screen and (min-width: 768px) {
   section#main-content {
@@ -138,7 +141,7 @@ section#water-header {
   background-size: cover;
   padding-top: 125px;
   padding-bottom: 112.5px;
-  margin-top: -75px;
+  margin-top: -125px;
 }
 @media screen and (min-width: 768px) {
   section#water-header {
@@ -200,7 +203,7 @@ section#gastronomy-header {
   background-size: cover;
   padding-top: 210px;
   padding-bottom: 135px;
-  margin-top: -50px;
+  margin-top: -55px;
 }
 @media screen and (min-width: 768px) {
   section#gastronomy-header {
@@ -279,8 +282,8 @@ section#social-content {
   -webkit-background-size: cover;
   background-size: cover;
   padding-top: 100px;
-  padding-bottom: 100px;
-  margin-top: -135px;
+  padding-bottom: 220px;
+  margin-top: -210px;
 }
 @media screen and (min-width: 768px) {
   section#social-content {
@@ -314,10 +317,22 @@ section.node-title {
   min-height: 220px;
   position: relative;
   z-index: 1;
+  margin-top: -4em;
 }
 section.node-content {
   background: url(img/node-content-bg.png) center center repeat-y;
   position: relative;
+  padding: 50px 0;
+  margin-top: -3em;
+}
+@media screen and (min-width: 480px) {
+  section.node-title {
+    margin-top: -6em;
+  }
+  section.node-content {
+    margin-top: -4em;
+    padding: 75px 0;
+  }
 }
 @media screen and (min-width: 768px) {
   section.node-title {
@@ -330,16 +345,27 @@ section.node-content {
 }
 section#info {
   background: url(img/info-bg.png) center top no-repeat;
-  margin-top: -24px;
+  margin-top: -125px;
   position: relative;
   padding-top: 10px;
   -webkit-background-size: cover;
   background-size: cover;
 }
+.not-front section#info {
+  margin-top: -12px;
+}
+@media screen and (min-width: 640px) {
+  section#info {
+    margin-top: -48px;
+  }
+}
 @media screen and (min-width: 768px) {
   section#info {
     margin-top: -48px;
     padding-top: 20px;
+  }
+  .not-front section#info {
+    margin-top: -48px;
   }
 }
 .field-name-field-otros {
